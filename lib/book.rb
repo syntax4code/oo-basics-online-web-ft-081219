@@ -1,5 +1,6 @@
 class Book
   def initialize(title) 
+<<<<<<< HEAD
     @title = title    #so if we call .title on a Book instance, we are interested in its title property. this returns that property, or instance variable,                    #into that method. This is a GETTER method because it gets a property for us.
                      #Setters are methods that allow us to set instance variables. 
 end
@@ -49,3 +50,8 @@ class Book
   end
  
 end
+=======
+end
+def title
+end 
+>>>>>>> 82c203bf6404619f810e7f94d723b6162811186d
